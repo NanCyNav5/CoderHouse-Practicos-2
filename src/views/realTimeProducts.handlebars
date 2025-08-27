@@ -1,0 +1,19 @@
+<form id="form">
+    <input type="text" name="title"  id="title" placeholder="Titulo"><br>
+    <input type="text" name="description"  id="description" placeholder="Descripcion"><br>
+    <input type="number" name="code"  id="code" placeholder="Codigo"><br>
+    <input type="number" name="price"  id="price" placeholder="Precio"><br>
+    <select type="status" name="status"  id="status" placeholder="Estado"><br><br>
+        <option value="true">Activo</option>
+        <option value="false">Inactivo</option>
+    </select>
+    <input type="number" name="stock"  id="stock" placeholder="Stock"><br>
+    <input type="text" name="category"  id="category" placeholder="Categoria"><br>
+    <input type="submit" value="Agregar producto"><br>
+    <input type="submit" value="Eliminar producto"><br>
+</form>
+    
+
+<p id="productos"></p>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/index.js"></script>

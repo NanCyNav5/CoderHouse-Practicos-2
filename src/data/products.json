@@ -1,0 +1,25 @@
+[
+  {
+    "id": 6504,
+    "title": "Cámara 4K",
+    "description": "Alta resolución para grabaciones",
+    "code": "CAM2025",
+    "price": 48000,
+    "status": true,
+    "stock": 8,
+    "category": "Tecnología",
+    "thumbnails": [
+      "camara.jpg"
+    ]
+  },
+  {
+    "id": 9250,
+    "title": "camara",
+    "description": "negro y blanco",
+    "code": "343",
+    "price": "80000",
+    "status": "true",
+    "stock": "4",
+    "category": "tecnologia"
+  }
+]
